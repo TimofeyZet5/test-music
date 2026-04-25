@@ -1,7 +1,7 @@
 --@name HUETA2
 --@author -
 --@shared
-
+--[[
 
 
 function math.InRange(cur, min, max)
@@ -13,7 +13,7 @@ end
 function math.ExRange(cur, min, max)
     return cur <= min and cur >= max
 end
-
+]]
 
 
 function math.average(...)
